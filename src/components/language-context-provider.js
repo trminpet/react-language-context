@@ -11,6 +11,10 @@ export default class LanguageProvider extends Component {
     children: PropTypes.any
   }
 
+  static defaultProps = {
+    useDefaultLangInstead: false
+  };
+
   _getLanguageProperties() {
     const { lang, defaultLang, useDefaultLangInstead } = this.props
 
