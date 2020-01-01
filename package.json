@@ -1,13 +1,18 @@
 {
   "name": "react-language-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple library to support multilingualism in react applications using react context.",
   "author": "Petr Třmínek petr.trminek@email.cz",
   "license": "MIT",
   "repository": "/react-language-context",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "keywords":["react","context","language","multilanguage"],
+  "keywords": [
+    "react",
+    "context",
+    "language",
+    "multilanguage"
+  ],
   "jsnext:main": "dist/index.es.js",
   "engines": {
     "node": ">=8",
