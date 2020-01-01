@@ -1,11 +1,11 @@
 {
   "name": "react-language-context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple library to support multilingualism in react applications using react context.",
   "author": "Petr Třmínek petr.trminek@email.cz",
   "license": "MIT",
   "repository": "https://github.com/trminpet/react-language-context",
-  "homepage":"https://github.com/trminpet/react-language-context#readme",
+  "homepage": "https://github.com/trminpet/react-language-context#readme",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "keywords": [
