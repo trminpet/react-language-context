@@ -84,7 +84,7 @@ Component LanguageConsumer is used as the shown text.
 }
 ```
 
-*Example of prop text*
+*Example of prop replacer*
 ```jsx
 {
  en:"Hello $1",
