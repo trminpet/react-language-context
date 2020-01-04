@@ -4,6 +4,11 @@ export const Texts = {
         es:"React language context muestra",
         cs:"React language context ukázka"
     },
+    dynamicHeader:{
+        en:"Hello $1",
+        es:"Hola $1",
+        cs:"Ahoj $1"
+    },
     select:{
             en:{
                 en:"English",

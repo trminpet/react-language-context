@@ -10,13 +10,18 @@ import { Texts } from "./texts";
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { lang: "en", defaultLang: "en" };
+    this.state = { lang: "en", defaultLang: "en", name: "Jar Jar" };
 
     this._handleChange = this._handleChange.bind(this);
+    this._handleChangeName = this._handleChangeName.bind(this);
   }
 
   _handleChange(event) {
     this.setState({ lang: event.target.value });
+  }
+
+  _handleChangeName(event) {
+    this.setState({ name: event.target.value });
   }
 
   render() {
@@ -39,6 +44,14 @@ export default class App extends Component {
           <h1>
             <LanguageConsumer text={Texts.header} />
           </h1>
+       
+          <label>
+          Name:
+          <input type="text" value={this.state.name} onChange={this._handleChangeName} />
+        </label>
+        <h2>
+          <LanguageConsumer text={Texts.dynamicHeader}  replacer={{$1: this.state.name}}/>
+          </h2>
           <p>
             <LanguageConsumer text={Texts.body} />
           </p>
